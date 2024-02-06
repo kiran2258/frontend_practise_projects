@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+#container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.member {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+
+}
+
+.investors {
+    width:100%;
+    /* margin: auto 20px; */
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.investor {
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px rgba(140, 137, 137, 0.5);
+    text-align: center;
+}
+
+.investor>h3 {
+
+    font-weight: 900;
+    font-size: 19px;
+
+}
+
+.investor>p {
+
+    font-weight: 900;
+    font-size: 16px;
+
+}
+
+.investor>img:last-child {
+    width: 150px;
+    align-items: flex-end;
+    
+
+}
+.investor>img:first-child{
+    border-radius: 30px;
+    width: 100%;
+}
