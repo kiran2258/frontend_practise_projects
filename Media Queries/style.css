@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+#header>h1 {
+    width: 60%;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 15px auto;
+    text-align: center;
+
+}
+
+#header>p {
+width: 70%;
+    font-size: 20px;
+    color: #808080;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.box{
+    
+ 
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    margin: 20px auto;
+    grid-template-columns: repeat(3,1fr);
+    
+
+}
+
+.plan>h2>{
+margin-top: 20px;
+font-size: 20px;
+color: rgb(47, 11, 248);
+}
+
+.green{
+    color: green;
+    font-size: 30px;
+    font-weight: 600;
+     margin-top: 20px;
+}
+
+.plan>p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #808080;
+   
+}
+.red{
+    color: rgb(236, 136, 35);
+    font-size: 30px;
+    font-weight: 600;
+     margin-top: 20px;
+}
+
+.blue{
+    color: rgb(8, 44, 223);
+    font-size: 30px;
+    font-weight: 500;
+     margin-top: 20px;
+}
+
+.plan>button{
+    border: none;
+            background-color: white;
+            border: blue solid 2px;
+            padding: 15px 50px;
+            border-radius: 10px;
+            color: blue;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 30px;
+}
+
+.plan>button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.plan {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
