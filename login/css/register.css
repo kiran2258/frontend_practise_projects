@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Poppins, sans-serif;
+}
+#container {
+  height: 100vh;
+
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpForm {
+  border: 1px solid rgb(202, 197, 197);
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+}
+.title > h4 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.title > h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.title > p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 3px 0;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+}
+
+.email > span {
+  font-size: 20px;
+
+  margin-top: 20px;
+}
+.email > input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 55px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  
+}
+.user{
+  display: flex;
+  flex-direction: column;
+}
+
+.user > span {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.user > input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 55px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  
+}
+.password{
+  display: flex;
+  flex-direction: column;
+}
+
+.password > span {
+  font-size: 20px;
+
+  margin-top: 20px;
+}
+
+.password > input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 55px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  
+}
+.confirm{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.confirm > span {
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.confirm > input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 55px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+ 
+}
+
+.resisters {
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resisters > button {
+  background-color: black;
+  color: #ccc;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 22px;
+  height: 55px;
+  margin-bottom: 20px;
+  flex: 1;
+  width: 100%;
+
+  
+}
+
+

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#box {
+  width: 90%;
+  margin: auto;
+}
+
+#box>div {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+#box>h1{
+text-align: center;
+margin: 25px 0;
+}
+
+#box div>div>img {
+  width: 100%;
+
+}
+
+#box>div>div>h3 {
+  text-align: center;
+}
+
+#mid{
+    width: 80%;
+    margin: auto;
+}
+
+#mid>div{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+}
+#mid>h1{
+    text-align: center;
+    margin-top: 25px 0;
+    
+    
+}
+#mid>div>div>img{
+    width: 100%;
+
+}
+
+#product{
+    width: 80%;
+    margin: auto;
+}
+
+#product>div{
+display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
