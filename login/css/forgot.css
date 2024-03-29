@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  border: 1px solid rgb(202, 197, 197);
+  border-radius: 10px;
+  padding: 30px;
+  width: 520px;
+}
+
+.form > .title > h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.title > p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 3px 0;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box > span {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.input-box > input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 55px;
+  margin: 10px 0;
+  width: 70%;
+}
+
+.btn {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn > button {
+  background-color: black;
+  color: #ccc;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 22px;
+
+  text-align: center;
+  width: 40%;
+}
+
+.btn > button:first-child {
+    background-color: grey;
+    color: black; 
+  }
+  .hidden{
+    display: none;
+  }
+  
+.otp{
+  border: 1px solid rgb(202, 197, 197);
+  border-radius: 10px;
+  padding: 30px;
+  width: 520px;
+}
+
+.otp> .title > h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.title > p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 3px 0;
+}
+
+
+
+ input {
+  border: 1px solid #9b9696;
+  
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 55px;
+  margin: 10px ;
+  width: 70%;
+ 
+}
+
+button{
+  background-color: black;
+ 
+  cursor: pointer;
+  border: 1px solid #9b9696;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 22px;
+margin: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+#change{
+  border: 1px solid rgb(202, 197, 197);
+  border-radius: 10px;
+  padding: 30px;
+  width: 520px;
+}
+
+#change> p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 3px 0;
+}
+input {
+  border: 1px solid #9b9696;
+  
+  border-radius: 10px;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 55px;
+  margin: 10px ;
+  width: 70%;
+ 
+}
+
+
+button{
+  background-color: black;
+ 
+  cursor: pointer;
+  border: 1px solid #9b9696;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 22px;
+margin: 10px;
+  text-align: center;
+  width: 30%;
+  height: 150%;
+}
+
+

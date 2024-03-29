@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="css/forgot.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="searchForm">
+            <div class="form">
+                <div class="title">
+                    <h2 >Find Your Account </h2>
+                    <p>Please enter your email address to search for your account.</p>
+                </div>
+                <div class="input-box">
+                    <span>User Email</span>
+                    <input type="email" placeholder="Enter your email address" name="email" value>
+                </div>
+                <div class="btn">
+                    <button id="closeBtn">Close</button>
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+        <form id="otpInput" class="hidden">
+            <div class="otp">
+                <div class="title">
+                    <h2>Forgot Password </h2>
+                    <p>Please enter your email address to search for your account.</p>
+                </div>
+                <input name="otp" type="text" placeholder="Enter your Otp">
+                <button type="submit">Submit Otp</button>
+            </div>
+        </form>
+        <form id="change" class="hidden">
+            <p>Otp is Correct Enter Your New Password</p>
+            <input name="password" type="text" placeholder="Enter Your New Password">
+            <button type="submit">change password</button>
+        </form>
+    </div>
+</body>
+<script src="js/forgot.js"></script>
+
+</html>
