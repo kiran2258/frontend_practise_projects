@@ -17,34 +17,47 @@ height: 100%;
 
 }
 
-nav ul{
-    
+nav {
+    background-color: #f8f9fa; /* Set your desired background color */
+}
+
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    flex-grow: 1;
     text-align: center;
-    margin-right: 20px; 
-    margin-top: 20px;
 }
 
-nav ul li{
-display: inline-block;
-list-style: none;
-color: white;
-padding: 20px;
-
+.btn {
+    background-color: #007bff; /* Set your desired button color */
+    color: #fff; /* Set text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.pro{
-    margin-right: 50%;
-    
-    font-size: 20px;
-    font-weight: bold;
-
+.btn:hover {
+    background-color: #0056b3; /* Change button color on hover */
 }
 
-.pri{
-    margin-right: 40%;
-    
-    font-size: 20px;
-    font-weight: bold;
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
+a:hover {
+    text-decoration: underline; /* Add underline on link hover */
 }

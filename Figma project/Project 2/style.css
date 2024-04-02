@@ -50,6 +50,11 @@ nav button {
     font-size: 18px;
     align-items: center;
 }
+.btn{
+    background-color: #25DAC5;
+    color: white;
+    font-size: 20px;
+}
 
 .hero {
     display: flex;
@@ -73,6 +78,7 @@ nav button {
 
 .hero_btn {
     margin: 40px;
+  
 }
 
 #mybtn {
@@ -126,3 +132,48 @@ nav button {
     height: 395px;
     width: 660px;
 }
+footer{
+    display: -webkit-flex;
+    justify-content:space-evenly;
+    
+    
+
+}
+.footer-left{
+    width: 200px;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #15143966;
+
+     border-right: 2px solid #15143966;
+}
+    
+.footer-center{
+    width: 200px;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #15143966;
+
+     border-right: 2px solid #15143966;
+}
+
+.footer-right{
+    width: 200px;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #15143966;
+
+     
+}
+    
+    
+
