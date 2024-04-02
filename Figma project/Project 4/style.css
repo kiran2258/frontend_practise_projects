@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:DM Sans;
+}
+
+/* .img{
+    display: cover;
+} */
+
+.container{
+
+width: 100%;
+height: 100%;
+
+
+}
+
+nav ul{
+    
+    list-style-type: none;
+    text-align: center;
+    margin-right: 20px; 
+    margin-top: 20px;
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+color: white;
+padding: 20px;
+
+}
+
+.pro{
+    margin-right: 50%;
+    
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.pri{
+    margin-right: 40%;
+    
+    font-size: 20px;
+    font-weight: bold;
+
+}
