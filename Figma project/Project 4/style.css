@@ -5,9 +5,10 @@
     font-family:DM Sans;
 }
 
-/* .img{
-    display: cover;
-} */
+.img{
+    position: absolute;
+    background-size: cover;
+}
 
 .container{
 
